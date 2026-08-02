@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#f6eef0" />
+  <meta name="description" content="НЕ ДИЕТА by DARITS — форматы персонального ведения, питание, тренировки и поддержка." />
+  <title>НЕ ДИЕТА — by DARITS</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&family=Marck+Script&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/hero-new.jpg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero" id="top">
+    <img class="hero__image" src="assets/hero-new.jpg" alt="Дарья — автор проекта НЕ ДИЕТА" fetchpriority="high" decoding="async" />
+    <div class="hero__veil"></div>
+    <nav class="nav shell" aria-label="Основная навигация">
+      <a class="brand" href="#top"><span>НЕ ДИЕТА</span><small>by DARITS</small></a>
+      <a class="nav__cta" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Записаться</a>
+    </nav>
+
+    <div class="hero__content shell">
+      <p class="eyebrow">by DARITS</p>
+      <h1>НЕ ДИЕТА</h1>
+      <p class="hero__script">а образ жизни</p>
+      <p class="hero__copy">Персональные форматы питания и тренировок с поддержкой Дарьи.</p>
+      <a class="button button--primary" href="#formats">Выбрать формат</a>
+    </div>
+
+    <div class="hero__socials shell" aria-label="Социальные сети">
+      <a href="https://www.instagram.com/_darits_/" target="_blank" rel="noopener">Instagram <span>↗</span></a>
+      <a href="https://t.me/dashanikitchik" target="_blank" rel="noopener">Telegram <span>↗</span></a>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--blue" id="formats">
+      <div class="shell">
+        <div class="section-head reveal">
+          <p class="eyebrow eyebrow--dark">Форматы работы</p>
+          <h2>Выберите свой формат</h2>
+        </div>
+
+        <div class="plans-carousel reveal" aria-label="Тарифы">
+          <div class="carousel-shell">
+            <button class="carousel-arrow carousel-arrow--left" type="button" aria-label="Предыдущий тариф">‹</button>
+            <div class="plans-stage" id="plansStage">
+              <article class="plan-card plan-card--pink" data-index="0" aria-label="Полное ведение">
+                <figure class="plan-card__media"><img src="assets/plan-full.jpg" alt="Полное ведение" loading="lazy" /></figure>
+                <div class="plan-card__content">
+                  <div class="plan-card__meta"><span class="plan-card__tag">Максимум поддержки</span><span class="plan-card__num">01</span></div>
+                  <h3>Полное ведение</h3>
+                  <div class="price"><strong>16 000 ₽</strong><span>/ месяц</span></div>
+                  <ul class="plan-card__list">
+                    <li>Индивидуальный расчёт и корректировка БЖУ</li>
+                    <li>Персональный тренировочный протокол</li>
+                    <li>Корректировка техники и рабочих весов</li>
+                    <li>Обратная связь 7 дней в неделю</li>
+                    <li>Эфиры, записи и челленджи проекта</li>
+                  </ul>
+                  <a class="button button--dark" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Хочу полное ведение</a>
+                </div>
+              </article>
+
+              <article class="plan-card plan-card--accent" data-index="1" aria-label="Ведение">
+                <figure class="plan-card__media"><img src="assets/plan-guide.jpg" alt="Ведение" loading="lazy" /></figure>
+                <div class="plan-card__content">
+                  <div class="plan-card__meta"><span class="plan-card__tag">Система и контроль</span><span class="plan-card__num">02</span></div>
+                  <h3>Ведение</h3>
+                  <div class="price"><strong>12 000 ₽</strong><span>/ месяц</span></div>
+                  <ul class="plan-card__list">
+                    <li>Индивидуальный расчёт и корректировка БЖУ</li>
+                    <li>Персональный тренировочный протокол</li>
+                    <li>Проверка техники 1 раз в неделю</li>
+                    <li>Обратная связь 1 день в неделю</li>
+                    <li>Эфиры, записи и челленджи проекта</li>
+                  </ul>
+                  <a class="button button--dark" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Хочу ведение</a>
+                </div>
+              </article>
+
+              <article class="plan-card plan-card--blue" data-index="2" aria-label="Подписка">
+                <figure class="plan-card__media"><img src="assets/community-3.jpg" alt="Подписка и сообщество" loading="lazy" /></figure>
+                <div class="plan-card__content">
+                  <div class="plan-card__meta"><span class="plan-card__tag">Сообщество</span><span class="plan-card__num">03</span></div>
+                  <h3>Подписка</h3>
+                  <div class="price"><strong>4 500 ₽</strong><span>/ месяц</span></div>
+                  <ul class="plan-card__list">
+                    <li>Онлайн-эфиры 2–4 раза в месяц</li>
+                    <li>Подкасты и материалы по питанию</li>
+                    <li>Закрытое сообщество и челленджи</li>
+                    <li>Правки пищевого дневника от куратора чата</li>
+                    <li>Вопросы Дарье и команде проекта</li>
+                  </ul>
+                  <a class="button button--dark" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Стать участником</a>
+                </div>
+              </article>
+            </div>
+            <button class="carousel-arrow carousel-arrow--right" type="button" aria-label="Следующий тариф">›</button>
+          </div>
+
+          <div class="carousel-controls" aria-label="Навигация по тарифам">
+            <button class="carousel-dot" data-go="0" type="button" aria-label="Полное ведение"></button>
+            <button class="carousel-dot is-active" data-go="1" type="button" aria-label="Ведение"></button>
+            <button class="carousel-dot" data-go="2" type="button" aria-label="Подписка"></button>
+          </div>
+          <div class="swipe-hint" aria-hidden="true">
+            <div class="swipe-hint__track"><span class="swipe-hint__arrow">←</span><span class="swipe-hint__label">Свайпните карточки</span><span class="swipe-hint__arrow">→</span></div>
+            <small>или нажмите на соседнюю карточку</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="community section section--cream">
+      <div class="shell">
+        <div class="section-head reveal"><p class="eyebrow eyebrow--dark">Не только тренировки</p><h2>Сообщество проекта</h2></div>
+        <div class="community-scroll">
+          <figure><img src="assets/community-1.jpg" alt="Участницы проекта" loading="lazy" /></figure>
+          <figure><img src="assets/community-2.jpg" alt="Участницы проекта с сертификатами" loading="lazy" /></figure>
+          <figure><img src="assets/community-3.jpg" alt="Команда и участницы проекта" loading="lazy" /></figure>
+        </div>
+        <p class="community__caption">Эфиры, поддержка команды, челленджи и живое окружение единомышленниц.</p>
+      </div>
+    </section>
+
+    <section class="moments section section--soft">
+      <div class="shell">
+        <div class="section-head reveal"><p class="eyebrow eyebrow--dark">Дарья и команда</p><h2>За проектом — реальная работа</h2></div>
+        <div class="moments-grid">
+          <img src="assets/gallery-1.jpg" alt="Дарья с участницами" loading="lazy" />
+          <img src="assets/gallery-2.jpg" alt="Дарья и спортсменки" loading="lazy" />
+          <img src="assets/gallery-3.jpg" alt="Дарья с командой" loading="lazy" />
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <img src="assets/final-new.jpg" alt="Дарья и проект DARITS" loading="lazy" />
+      <div class="final-cta__veil"></div>
+      <div class="shell final-cta__content reveal">
+        <p class="eyebrow">Запись в проект</p>
+        <h2>Готовы начать?</h2>
+        <p>Напишите менеджеру — поможем выбрать подходящий формат.</p>
+        <a class="button button--primary" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Записаться</a>
+      </div>
+    </section>
+
+    <section class="section section--cream" id="video">
+      <div class="shell">
+        <div class="section-head reveal"><p class="eyebrow eyebrow--dark">Видео</p><h2>Видео с Дарьей</h2></div>
+        <div class="video-grid">
+          <button class="video-card reveal" data-youtube="aMm4jiMzyM8" aria-label="Открыть видео 1"><img src="https://img.youtube.com/vi/aMm4jiMzyM8/maxresdefault.jpg" alt="Видео с Дарьей" loading="lazy"><span class="play">▶</span></button>
+          <button class="video-card reveal" data-youtube="n8KUWH9WvOQ" aria-label="Открыть видео 2"><img src="https://img.youtube.com/vi/n8KUWH9WvOQ/maxresdefault.jpg" alt="Видео с Дарьей" loading="lazy"><span class="play">▶</span></button>
+          <button class="video-card reveal" data-youtube="rnainTFYlCM" aria-label="Открыть видео 3"><img src="https://img.youtube.com/vi/rnainTFYlCM/maxresdefault.jpg" alt="Видео с Дарьей" loading="lazy"><span class="play">▶</span></button>
+          <button class="video-card reveal" data-youtube="W_zjoibpzUI" aria-label="Открыть видео 4"><img src="https://img.youtube.com/vi/W_zjoibpzUI/maxresdefault.jpg" alt="Видео с Дарьей" loading="lazy"><span class="play">▶</span></button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="shell footer__inner">
+      <div class="brand brand--dark"><span>НЕ ДИЕТА</span><small>by DARITS</small></div>
+      <div class="footer__links">
+        <a href="https://www.instagram.com/_darits_/" target="_blank" rel="noopener">Instagram ↗</a>
+        <a href="https://t.me/dashanikitchik" target="_blank" rel="noopener">Telegram ↗</a>
+        <a href="https://example.com/oferta" target="_blank" rel="noopener">Публичная оферта ↗</a>
+      </div>
+      <p class="legal">Оплачивая услугу, Вы соглашаетесь с условиями публичной оферты.</p>
+    </div>
+  </footer>
+
+  <a class="mobile-sticky-cta" href="https://t.me/DenisRycha" target="_blank" rel="noopener">Записаться в проект</a>
+  <div class="modal" id="videoModal" aria-hidden="true"><button class="modal__close" aria-label="Закрыть видео">×</button><div class="modal__frame" id="videoFrame"></div></div>
+  <script src="script.js"></script>
+</body>
+</html>
