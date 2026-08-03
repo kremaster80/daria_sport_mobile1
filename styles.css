@@ -410,3 +410,68 @@ h1,h2,h3,.brand span{font-family:var(--font-display)}
 .plan-card--accent{background:linear-gradient(180deg,#fff7f8,#f6e2e8 100%)}
 .plan-card__list li::marker{color:#df83a2}
 .section-head>p{color:#8d6c76}
+
+/* Final typography and content-focus revision */
+.hero__kicker{
+  margin:0 0 10px;
+  font-size:11px;
+  font-weight:600;
+  letter-spacing:.2em;
+  text-transform:uppercase;
+  color:rgba(255,255,255,.82);
+}
+.hero__script{display:none!important}
+.hero h1{
+  font-family:var(--font-display);
+  font-weight:500;
+  letter-spacing:-.035em;
+  line-height:.88;
+}
+.hero__copy{font-family:var(--font-body);font-weight:400}
+.community__link{
+  display:inline-flex;
+  margin-top:18px;
+  padding:13px 18px;
+  border-radius:999px;
+  background:#ec8fb0;
+  color:#fff;
+  font-size:13px;
+  font-weight:700;
+  box-shadow:0 12px 28px rgba(201,94,133,.22);
+}
+.moments__caption{
+  margin:20px 2px 0;
+  color:#745b64;
+  font-size:15px;
+  line-height:1.5;
+}
+
+/* Cards without photos: cleaner hierarchy and no incorrect attribution */
+.plan-card__media{display:none!important}
+.plan-card{justify-content:stretch}
+.plan-card__content{padding:30px 24px 24px!important;gap:14px!important}
+.plan-card__meta{margin-top:0!important}
+.plan-card h3{margin-top:8px!important}
+.plan-card__list{margin-top:8px!important}
+
+@media(max-width:800px){
+  .hero__content{padding:58px 0 40px!important}
+  .hero h1{font-size:56px!important;max-width:320px}
+  .hero__copy{max-width:305px!important;margin:16px 0 18px!important;font-size:14px!important;line-height:1.45!important}
+  .brand span{font-family:var(--font-display);font-weight:500;font-size:24px;letter-spacing:.01em}
+  .brand small{font-family:var(--font-body);font-size:9px;letter-spacing:.24em}
+  .plans-stage{height:520px!important}
+  .plan-card{height:470px!important}
+  .plan-card__content{padding:28px 22px 22px!important}
+  .plan-card h3{font-size:38px!important}
+  .plan-card__list{font-size:12.5px!important;line-height:1.4!important;gap:7px!important}
+  .community .section-head h2,.moments .section-head h2{font-size:36px!important;line-height:1.02}
+  .community__caption,.moments__caption{font-size:14px}
+}
+
+@media(max-width:390px){
+  .hero h1{font-size:51px!important}
+  .plans-stage{height:505px!important}
+  .plan-card{height:455px!important}
+  .plan-card h3{font-size:35px!important}
+}
